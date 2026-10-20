@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The Portfolio Console - G Yuvaraj's interactive software portfolio." />
+    <title>G Yuvaraj - The Portfolio Console</title>
+    <link rel="preload" href="assets/device-reference.png" as="image" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#console">Skip to portfolio console</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Yuvaraj home">yuvaraj<span>.</span></a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <button type="button" data-section="work">Projects</button>
+        <button type="button" data-section="about">About</button>
+        <button type="button" data-section="experience">Experience</button>
+        <button type="button" data-section="skills">Skills</button>
+      </nav>
+      <a class="talk-link" href="#contact">Let's Talk <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="top">
+      <section class="intro" aria-labelledby="intro-title">
+        <p class="eyebrow"><span aria-hidden="true"></span> Available for opportunities</p>
+        <h1 id="intro-title">Hi, I'm <button class="name-edit" type="button" aria-label="Edit display name"><span id="display-name">Debbie</span></button></h1>
+        <p class="intro-copy">A software developer focused on Generative AI,<br />backend systems, and practical digital products.</p>
+      </section>
+
+      <section class="console-section" id="console" aria-label="Interactive portfolio console">
+        <div class="console-wrap">
+          <img class="device-image" src="assets/device-reference.png" alt="Open graphite mechanical console with a screen and key wells" />
+
+          <div class="terminal" aria-live="off">
+            <div class="terminal-meta"><span>YUVARAJ / SOFTWARE PORTFOLIO</span><span id="terminal-status">TYPING</span></div>
+            <h2 id="terminal-title" aria-label="Yuvaraj's portfolio"></h2><span class="caret" aria-hidden="true"></span>
+            <p id="terminal-description">Generative AI, backend systems, and thoughtful products.</p>
+          </div>
+
+          <div class="key-layer" aria-label="Portfolio destinations">
+            <button class="key key-p" style="--x:19.66%;--y:51.76%;--w:10.16%;--h:12.70%;--face:#EC6426;--base:#AD4017;--ink:#66271B;--delay:0ms" data-section="work" data-title="Selected Projects" data-description="Full-stack, Generative AI, and mobile application projects." aria-label="Selected projects, P key"><span>P</span></button>
+            <button class="key key-o" style="--x:32.75%;--y:50.78%;--w:10.16%;--h:12.70%;--face:#F8A91F;--base:#BC7512;--ink:#66271B;--delay:85ms" data-section="about" data-title="About Me" data-description="A Computer Science graduate focused on practical AI solutions." aria-label="About, O key"><span>O</span></button>
+            <button class="key key-r" style="--x:45.90%;--y:49.80%;--w:10.16%;--h:12.70%;--face:#FDE3CF;--base:#CAA58A;--ink:#66271B;--delay:170ms" data-section="experience" data-title="Experience" data-description="Python Full Stack Intern at KodNest Technologies." aria-label="Experience, R key"><span>R</span></button>
+            <button class="key key-t" style="--x:58.92%;--y:48.73%;--w:10.16%;--h:12.70%;--face:#2E573A;--base:#193A23;--ink:#FDE3CF;--delay:255ms" data-section="skills" data-title="Technical Skills" data-description="Python, JavaScript, databases, APIs, and Generative AI." aria-label="Technical skills, T key"><span>T</span></button>
+            <button class="key key-f" style="--x:72.07%;--y:47.66%;--w:10.16%;--h:12.70%;--face:#72AC43;--base:#487A26;--ink:#66271B;--delay:340ms" data-section="work" data-title="Explore Projects" data-description="Explore full-stack and AI-integrated applications." aria-label="Explore projects, F key"><span>F</span></button>
+            <button class="key key-small" style="--x:19.92%;--y:71.19%;--w:6.38%;--h:10.55%;--face:#E4A5CA;--base:#B76F9B;--ink:#66271B;--delay:425ms" data-section="education" data-title="Education" data-description="Computer Science and Engineering, CGPA 8.21 out of 10." aria-label="Education, O key"><span>O</span></button>
+            <button class="key key-small" style="--x:27.99%;--y:70.51%;--w:6.38%;--h:10.55%;--face:#66271B;--base:#40150E;--ink:#FDE3CF;--delay:510ms" data-section="experience" data-title="Work Experience" data-description="Backend logic, databases, web applications, and Git." aria-label="Work experience, L key"><span>L</span></button>
+            <button class="key key-small" style="--x:36.00%;--y:69.92%;--w:6.38%;--h:10.55%;--face:#EC6426;--base:#AD4017;--ink:#66271B;--delay:595ms" data-section="skills" data-title="AI and Backend" data-description="LLM integrations, RAG pipelines, REST APIs, and databases." aria-label="AI and backend skills, I key"><span>I</span></button>
+            <button class="key key-small" style="--x:44.21%;--y:69.24%;--w:6.38%;--h:10.55%;--face:#F8A91F;--base:#BC7512;--ink:#66271B;--delay:680ms" data-section="contact" data-title="Let's Connect" data-description="Have an opportunity or project in mind? Get in touch." aria-label="Contact, O key"><span>O</span></button>
+            <button class="key key-small key-star" style="--x:52.28%;--y:68.55%;--w:6.38%;--h:10.55%;--face:#E4A5CA;--base:#B76F9B;--ink:#66271B;--delay:765ms" data-section="work" data-title="Explore My Portfolio" data-description="Selected full-stack and AI-integrated projects." aria-label="Explore my portfolio"><span aria-hidden="true">✦</span><small>portfolio</small></button>
+            <button class="key key-talk" style="--x:61.59%;--y:67.29%;--w:24.35%;--h:10.94%;--face:#252525;--base:#101010;--ink:#fff;--delay:850ms" data-section="contact" data-title="Let's Connect" data-description="Have an opportunity or project in mind? Get in touch." aria-label="Let's connect"><span class="return-symbol" aria-hidden="true">↵</span><span>LET'S TALK</span></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="credibility" aria-label="Portfolio highlights">
+        <p>Generative AI <span>✦</span> Backend Engineering <span>✦</span> Full Stack Development</p>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <p class="eyebrow"><span aria-hidden="true"></span> Get in touch</p>
+        <h2 id="contact-title">Let's build something<br /><em>useful.</em></h2>
+        <p>Have an opportunity, a product idea,<br />or an AI problem worth solving?</p>
+        <a href="mailto:yuvrazz21@gmail.com">yuvrazz21@gmail.com <span aria-hidden="true">↗</span></a>
+        <p class="social-links"><a href="https://www.linkedin.com/in/g-yuvaraj-42b1b634a" target="_blank" rel="noreferrer">LinkedIn</a><span> / </span><a href="https://github.com/yuviii21" target="_blank" rel="noreferrer">GitHub</a></p>
+      </section>
+    </main>
+
+    <dialog class="modal" id="section-modal" aria-labelledby="modal-title">
+      <button class="modal-close" type="button" aria-label="Close dialog">×</button>
+      <p class="modal-label" id="modal-label">Portfolio Console</p>
+      <h2 id="modal-title"></h2>
+      <div id="modal-copy"></div>
+      <button class="modal-action" type="button">Close</button>
+    </dialog>
+
+    <dialog class="name-modal" id="name-modal" aria-labelledby="name-modal-title">
+      <form method="dialog" id="name-form">
+        <p class="modal-label">Personalise the console</p>
+        <h2 id="name-modal-title">What's your name?</h2>
+        <label for="name-input">Display name</label>
+        <input id="name-input" name="name" maxlength="24" autocomplete="name" required />
+        <div class="form-actions"><button value="cancel" type="submit" class="button-muted">Cancel</button><button value="save" type="submit" class="modal-action">Save name</button></div>
+      </form>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
